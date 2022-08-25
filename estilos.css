@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* navbar - inicio */
+.container-fluid {
+  background-color: #1c7057;
+  height: 150px;
+}
+
+.dropdown-menu {
+  background-color: #1c7057;
+}
+
+/* navbar - fin */
+/* home-inicio */
+.info {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.info__qs__titulo {
+  color: #1c7057;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.info__qs__detalle {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.info__servicios__titulo {
+  color: #1c7057;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.info__servicios__detalle {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
+}
+
+.buttonVM {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 15px;
+  background-color: #1c7057;
+}
+.buttonVM__link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+.buttonVM a:hover {
+  color: #333;
+}
+
+/* home - fin */
+/* footer - inicio */
+.foot {
+  background-color: #1c7057;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 10px;
+  height: 1000;
+}
+.foot__inf {
+  font-size: 1rem;
+  text-align: start;
+}
+.foot a {
+  color: white;
+}
+.foot a:hover {
+  color: #333;
+}
+
+/* footer - fin */
+/* Quienes somos - inicio */
+.info__qs__detalleP {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+/* Quienes somos - fin */
+/* Contacto - inicio */
+.info {
+  display: flex;
+}
+.info__contacto {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info__contacto__titulo {
+  color: #1c7057;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.info__contacto__formulario {
+  width: 40%;
+}
+.info__contacto__formulario form {
+  display: flex;
+  flex-direction: column;
+}
+.info__contacto__formulario form .input {
+  margin-bottom: 1rem;
+}
+.info__masInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info__masInfo__horarios__lun {
+  margin: 0;
+}
+.info__masInfo__horarios__sab {
+  margin-bottom: 1rem;
+}
+.info__masInfo__mapa {
+  width: 80%;
+}
+.info__masInfo__mapa iframe {
+  width: 70%;
+}
+
+/* Contacto - fin *//*# sourceMappingURL=estilos.css.map */

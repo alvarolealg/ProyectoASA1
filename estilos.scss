@@ -1,0 +1,150 @@
+$color1:#1c7057;
+$color2:white;
+$color3: #333;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* navbar - inicio */
+.container-fluid{
+
+    background-color: $color1;
+    height: 150px;
+}
+.dropdown-menu{
+    background-color: $color1;
+}
+/* navbar - fin */
+/* home-inicio */
+.info{
+    text-align: center;
+    margin-top: 1.5rem;
+    &__qs{
+        
+        &__titulo{
+            color: $color1;
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+        &__detalle{
+            font-size: 1.2rem;
+            line-height: 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+    }
+    &__servicios{
+        &__titulo{
+            color: $color1;
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+        &__detalle{
+            font-size: 1.2rem;
+            line-height: 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            margin-bottom: 3rem;
+        }
+    }
+}
+.buttonVM{
+    padding: .6rem;
+    border: none;
+    border-radius: 15px;
+    background-color: $color1;
+        
+        &__link{
+            text-decoration: none;
+            color: $color2;
+            font-size: 1rem;
+        }
+        a:hover{
+            color: $color3;
+        }
+}
+/* home - fin */
+/* footer - inicio */
+.foot{
+    background-color: $color1;
+    color:$color2 ;
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    padding: 10px;
+    height: 1000;
+   &__inf{
+    font-size: 1rem;
+    text-align: start;
+    
+   }
+   a{
+    color: $color2;
+}
+a:hover{
+    color: $color3;
+}
+}
+/* footer - fin */
+/* Quienes somos - inicio */
+.info{
+    &__qs{
+        &__detalleP{
+            margin-left: 2rem;
+            margin-right: 2rem;
+            font-size: 1.2rem;
+            line-height: 2rem;
+        }
+    }
+}
+/* Quienes somos - fin */
+/* Contacto - inicio */
+.info{
+    display: flex;
+    &__contacto{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__titulo{
+            color: $color1;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+        &__formulario{
+            width: 40%;
+            form{
+                display: flex;
+                flex-direction: column;
+                .input{
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+    &__masInfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__horarios{
+            &__lun{
+                margin: 0;
+            }
+            &__sab{
+                margin-bottom:1rem;
+            }
+        }
+        &__mapa{
+            width: 80%;
+            iframe{
+                width: 70%;
+            }
+        }
+    }
+}
+/* Contacto - fin */
