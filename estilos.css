@@ -1,7 +1,9 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -21,22 +23,26 @@
   text-align: center;
   margin-top: 1.5rem;
 }
+
 .info__qs__titulo {
   color: #1c7057;
   font-size: 3rem;
   margin-bottom: 1.5rem;
 }
+
 .info__qs__detalle {
   font-size: 1.2rem;
   line-height: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
 .info__servicios__titulo {
   color: #1c7057;
   font-size: 3rem;
   margin-bottom: 1.5rem;
 }
+
 .info__servicios__detalle {
   font-size: 1.2rem;
   line-height: 2rem;
@@ -46,16 +52,18 @@
 }
 
 .buttonVM {
-  padding: 0.6rem;
+  padding: .6rem;
   border: none;
   border-radius: 15px;
   background-color: #1c7057;
 }
+
 .buttonVM__link {
   text-decoration: none;
   color: white;
   font-size: 1rem;
 }
+
 .buttonVM a:hover {
   color: #333;
 }
@@ -69,15 +77,18 @@
   font-size: 1.5rem;
   text-transform: capitalize;
   padding: 10px;
-  height: 1000;
+  height: auto;
 }
+
 .foot__inf {
   font-size: 1rem;
   text-align: start;
 }
+
 .foot a {
   color: white;
 }
+
 .foot a:hover {
   color: #333;
 }
@@ -94,46 +105,186 @@
 /* Quienes somos - fin */
 /* Contacto - inicio */
 .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 .info__contacto {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .info__contacto__titulo {
   color: #1c7057;
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
+
 .info__contacto__formulario {
   width: 40%;
 }
+
 .info__contacto__formulario form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .info__contacto__formulario form .input {
   margin-bottom: 1rem;
 }
+
 .info__masInfo {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 .info__masInfo__horarios__lun {
   margin: 0;
 }
+
 .info__masInfo__horarios__sab {
   margin-bottom: 1rem;
 }
+
 .info__masInfo__mapa {
   width: 80%;
 }
+
 .info__masInfo__mapa iframe {
   width: 70%;
 }
 
-/* Contacto - fin *//*# sourceMappingURL=estilos.css.map */
+/* Contacto - fin */
+/* Cañerias - inicio */
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.info__cañerias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.info__cañerias__titulo {
+  color: #1c7057;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info__cañerias__detalle {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.info__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__img img {
+  width: 100%;
+}
+
+/* Cañerias - fin */
+/* intercambiadores - inicio */
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.info__intercambiadores {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.info__intercambiadores__titulo {
+  color: #1c7057;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info__intercambiadores__detalle {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.info__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__img img {
+  width: 100%;
+}
+
+/* intercambiadores - fin */
+/*# sourceMappingURL=estilos.css.map */
