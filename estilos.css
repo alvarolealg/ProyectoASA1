@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* COLORES */
+/* MIXIN */
 * {
   margin: 0;
   padding: 0;
@@ -287,4 +289,220 @@
 }
 
 /* intercambiadores - fin */
+/* Tanques - inicio */
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.info__tanques {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+}
+
+.info__tanques__titulo {
+  color: #1c7057;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info__tanques__detalle {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.info__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__img img {
+  width: 100%;
+}
+
+/* Tanques - fin */
+/* estructuras - inicio */
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.info__estructuras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 55%;
+}
+
+.info__estructuras__titulo {
+  color: #1c7057;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info__estructuras__detalle {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.info__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__img img {
+  width: 100%;
+}
+
+/* estructuras - fin */
+/* Bombas y tableros - inicio */
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.info__byt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 55%;
+}
+
+.info__byt__titulo {
+  color: #1c7057;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info__byt__detalle {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.info__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__img img {
+  width: 100%;
+}
+
+/* Bombas y tableros - fin */
+/* Placas FC - inicio */
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.info__pfc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 55%;
+}
+
+.info__pfc__titulo {
+  color: #1c7057;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.info__pfc__detalle {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.info__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info__img img {
+  width: 100%;
+}
+
+/* Placas FC - fin */
 /*# sourceMappingURL=estilos.css.map */
